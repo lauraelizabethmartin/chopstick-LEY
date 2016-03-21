@@ -1,0 +1,89 @@
+{
+data:[
+{
+name:"row headers",
+type:"scatter",
+mode:"markers",
+uid:"b4531a",
+marker:{
+symbol:"asterisk-open",
+size:14,
+color:"rgb(214, 39, 40)",
+line:{
+color:"rgb(140, 86, 75)"
+},
+maxdisplayed:0,
+colors:"rgb(214, 39, 40)"
+},
+visible:true,
+showlegend:true,
+hoverinfo:"all",
+autobinx:true,
+autobiny:true,
+xsrc:"lemartin:13:bc2925",
+ysrc:"lemartin:13:9046f2",
+xbins:{
+start:-1.5,
+end:6.5,
+size:1
+},
+ybins:{
+start:20,
+end:40,
+size:5
+},
+zmin:0,
+zmax:1,
+contours:{
+coloring:"fill",
+showlines:true,
+start:0.1,
+size:0.1,
+end:0.901
+},
+fill:"none"
+}
+],
+layout:{
+height:645,
+width:1184,
+autosize:true,
+title:"Average Accuracy of Chopstick Users at Different Chopstick Lengths",
+xaxis:{
+autorange:false,
+range:[
+-2.2290425405576695,
+8.170481531577817
+],
+type:"category",
+title:"Chopstick Length",
+showticklabels:true,
+tickfont:{
+size:10
+}
+},
+yaxis:{
+autorange:false,
+range:[
+24.995745955992064,
+35.41047645503268
+],
+type:"linear",
+title:"Average Accuracy",
+showticklabels:true,
+tickfont:{
+size:10
+}
+},
+font:{
+family:"Raleway, sans-serif",
+size:20
+},
+titlefont:{
+family:"Raleway, sans-serif"
+},
+plot_bgcolor:"rgb(201, 229, 231)",
+separators:".,",
+showlegend:false
+}
+}
